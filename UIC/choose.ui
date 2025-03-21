@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Choose the level</string>
+  </property>
+  <widget class="QPushButton" name="pblevel2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>50</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(107, 107, 107);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Level 2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pblevel3">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>90</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(107, 107, 107);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Level 3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pblevel4">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>130</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(107, 107, 107);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Level 4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pblevel5">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>170</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(107, 107, 107);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Level 5</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pblevel6">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>210</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(107, 107, 107);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Level 6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pblevel7">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>250</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(107, 107, 107);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Level 7</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pblevel1">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(107, 107, 107);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Level 1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pronounse">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>300</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(107, 107, 107);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Pronounse</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>320</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(68, 49, 32);</string>
+   </property>
+   <property name="text">
+    <string>Вернуться</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>20</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Пройдено!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>60</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Пройдено!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>100</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Пройдено!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>140</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Пройдено!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>180</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Пройдено!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>220</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Пройдено!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>260</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>Пройдено!</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
